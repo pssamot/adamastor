@@ -1,3 +1,4 @@
+// based on https://www.raywenderlich.com/206-swift-algorithm-club-hash-tables
 public struct HashTable<Key: Hashable, Value> {
 
 	private typealias Element = (key: Key, value: Value)
